@@ -1,1 +1,1 @@
-# rag-disinformation-system
+# Sistema para la detección de patrones de desinformación
