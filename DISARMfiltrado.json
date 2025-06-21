@@ -1,0 +1,976 @@
+{
+    "objects": [
+        {
+            "id": "TA02",
+            "type": "tactic",
+            "name": "Plan Objectives",
+            "description": "Set clearly defined, measurable, and achievable objectives. In some cases achieving objectives ties execution of tactical tasks to reaching the desired strategic end state. In other cases, where there is no clearly defined strategic end state, the tactical objective may stand on its own. The objective statement should not specify the way and means of accomplishment but rather the goal the threat actor wishes to achieve. ",
+            "techniques": [
+                {
+                    "id": "T0066",
+                    "type": "technique",
+                    "name": "Degrade Adversary",
+                    "description": "Plan to degrade an adversary's image or ability to act. This could include preparation and use of harmful information about the adversary's actions or reputation.",
+                    "tactic_id": "TA02",
+                    "tactic_name": "Plan Objectives",
+                    "counters": []
+                },
+                {
+                    "id": "T0075",
+                    "type": "technique",
+                    "name": "Dismiss",
+                    "description": "Push back against criticism by dismissing your critics. This might be arguing that the critics use a different standard for you than with other actors or themselves; or arguing that their criticism is biassed.",
+                    "tactic_id": "TA02",
+                    "tactic_name": "Plan Objectives",
+                    "counters": []
+                },
+                {
+                    "id": "T0075.001",
+                    "type": "technique",
+                    "name": "Discredit Credible Sources",
+                    "description": "Plan to delegitimize the media landscape and degrade public trust in reporting, by discrediting credible sources. This makes it easier to promote influence operation content.",
+                    "tactic_id": "TA02",
+                    "tactic_name": "Plan Objectives",
+                    "counters": []
+                },
+                {
+                    "id": "T0076",
+                    "type": "technique",
+                    "name": "Distort",
+                    "description": "Twist the narrative. Take information, or artefacts like images, and change the framing around them.",
+                    "tactic_id": "TA02",
+                    "tactic_name": "Plan Objectives",
+                    "counters": []
+                },
+                {
+                    "id": "T0077",
+                    "type": "technique",
+                    "name": "Distract",
+                    "description": "Shift attention to a different narrative or actor, for instance by accusing critics of the same activity that they've accused you of (e.g. police brutality).",
+                    "tactic_id": "TA02",
+                    "tactic_name": "Plan Objectives",
+                    "counters": []
+                },
+                {
+                    "id": "T0078",
+                    "type": "technique",
+                    "name": "Dismay",
+                    "description": "Threaten the critic or narrator of events. For instance, threaten journalists or news outlets reporting on a story.",
+                    "tactic_id": "TA02",
+                    "tactic_name": "Plan Objectives",
+                    "counters": []
+                },
+                {
+                    "id": "T0079",
+                    "type": "technique",
+                    "name": "Divide",
+                    "description": "Create conflict between subgroups, to widen divisions in a community",
+                    "tactic_id": "TA02",
+                    "tactic_name": "Plan Objectives",
+                    "counters": []
+                }
+            ]
+        },
+        {
+            "id": "TA13",
+            "type": "tactic",
+            "name": "Target Audience Analysis",
+            "description": "Identifying and analysing the target audience examines target audience member locations, political affiliations, financial situations, and other attributes that an influence operation may incorporate into its messaging strategy. During this tactic, influence operations may also identify existing similarities and differences between target audience members to unite like groups and divide opposing groups. Identifying and analysing target audience members allows influence operations to tailor operation strategy and content to their analysis.",
+            "techniques": [
+                {
+                    "id": "T0072",
+                    "type": "technique",
+                    "name": "Segment Audiences",
+                    "description": "Create audience segmentations by features of interest to the influence campaign, including political affiliation, geographic location, income, demographics, and psychographics.",
+                    "tactic_id": "TA13",
+                    "tactic_name": "Target Audience Analysis",
+                    "counters": []
+                },
+                {
+                    "id": "T0072.001",
+                    "type": "technique",
+                    "name": "Geographic Segmentation",
+                    "description": "An influence operation may target populations in a specific geographic location, such as a region, state, or city. An influence operation may use geographic segmentation to Create Localised Content (see: Establish Legitimacy).",
+                    "tactic_id": "TA13",
+                    "tactic_name": "Target Audience Analysis",
+                    "counters": []
+                },
+                {
+                    "id": "T0072.002",
+                    "type": "technique",
+                    "name": "Demographic Segmentation",
+                    "description": "An influence operation may target populations based on demographic segmentation, including age, gender, and income. Demographic segmentation may be useful for influence operations aiming to change state policies that affect a specific population sector. For example, an influence operation attempting to influence Medicare funding in the United States would likely target U.S. voters over 65 years of age.",
+                    "tactic_id": "TA13",
+                    "tactic_name": "Target Audience Analysis",
+                    "counters": []
+                },
+                {
+                    "id": "T0072.003",
+                    "type": "technique",
+                    "name": "Economic Segmentation",
+                    "description": "An influence operation may target populations based on their income bracket, wealth, or other financial or economic division.",
+                    "tactic_id": "TA13",
+                    "tactic_name": "Target Audience Analysis",
+                    "counters": []
+                },
+                {
+                    "id": "T0072.004",
+                    "type": "technique",
+                    "name": "Psychographic Segmentation",
+                    "description": "An influence operation may target populations based on psychographic segmentation, which uses audience values and decision-making processes. An operation may individually gather psychographic data with its own surveys or collection tools or externally purchase data from social media companies or online surveys, such as personality quizzes.",
+                    "tactic_id": "TA13",
+                    "tactic_name": "Target Audience Analysis",
+                    "counters": []
+                },
+                {
+                    "id": "T0072.005",
+                    "type": "technique",
+                    "name": "Political Segmentation",
+                    "description": "An influence operation may target populations based on their political affiliations, especially when aiming to manipulate voting or change policy.",
+                    "tactic_id": "TA13",
+                    "tactic_name": "Target Audience Analysis",
+                    "counters": []
+                }
+            ]
+        },
+        {
+            "id": "TA14",
+            "type": "tactic",
+            "name": "Develop Narratives",
+            "description": "The promotion of beneficial master narratives is perhaps the most effective method for achieving long-term strategic narrative dominance. From a \"\"whole of society\"\" perspective the promotion of the society's core master narratives should occupy a central strategic role. From a misinformation campaign / cognitive security perpectve the tactics around master narratives centre more precisely on the day-to-day promotion and reinforcement of this messaging. In other words, beneficial, high-coverage master narratives are a central strategic goal and their promotion constitutes an ongoing tactical struggle carried out at a whole-of-society level. Tactically, their promotion covers a broad spectrum of activities both on- and offline.",
+            "techniques": [
+                {
+                    "id": "T0003",
+                    "type": "technique",
+                    "name": "Leverage Existing Narratives",
+                    "description": "Use or adapt existing narrative themes, where narratives are the baseline stories of a target audience. Narratives form the bedrock of our worldviews. New information is understood through a process firmly grounded in this bedrock. If new information is not consitent with the prevailing narratives of an audience, it will be ignored. Effective campaigns will frame their misinformation in the context of these narratives. Highly effective campaigns will make extensive use of audience-appropriate archetypes and meta-narratives throughout their content creation and amplifiction practices.",
+                    "tactic_id": "TA14",
+                    "tactic_name": "Develop Narratives",
+                    "counters": [
+                        "C00008 Create shared fact-checking database",
+                        "C00011 Media literacy. Games to identify fake news",
+                        "C00012 Platform regulation",
+                        "C00013 Rating framework for news",
+                        "C00014 Real-time updates to fact-checking database",
+                        "C00016 Censorship",
+                        "C00017 Repair broken social connections",
+                        "C00019 Reduce effect of division-enablers",
+                        "C00021 Encourage in-person communication",
+                        "C00022 Innoculate. Positive campaign to promote feeling of safety",
+                        "C00024 Promote healthy narratives",
+                        "C00027 Create culture of civility",
+                        "C00029 Create fake website to issue counter narrative and counter narrative through physical merchandise",
+                        "C00030 Develop a compelling counter narrative (truth based)",
+                        "C00031 Dilute the core narrative - create multiple permutations, target / amplify",
+                        "C00080 Create competing narrative",
+                        "C00081 Highlight flooding and noise, and explain motivations",
+                        "C00082 Ground truthing as automated response to pollution",
+                        "C00084 Modify disinformation narratives, and rebroadcast them",
+                        "C00125 Prebunking",
+                        "C00126 Social media amber alert",
+                        "C00156 Better tell your country or organization story",
+                        "C00161 Coalition Building with stakeholders and Third-Party Inducements",
+                        "C00162 Unravel/target the Potemkin villages",
+                        "C00164 compatriot policy",
+                        "C00169 develop a creative content hub",
+                        "C00176 Improve Coordination amongst stakeholders: public and private",
+                        "C00188 Newsroom/Journalist training to counter influence moves",
+                        "C00190 open engagement with civil society",
+                        "C00205 strong dialogue between the federal government and private sector to encourage better reporting",
+                        "C00212 build public resilience by making civil society more vibrant"
+                    ]
+                },
+                {
+                    "id": "T0004",
+                    "type": "technique",
+                    "name": "Develop Competing Narratives",
+                    "description": "Advance competing narratives connected to same issue ie: on one hand deny incident while at same time expresses dismiss. Suppressing or discouraging narratives already spreading requires an alternative. The most simple set of narrative techniques in response would be the construction and promotion of contradictory alternatives centred on denial, deflection, dismissal, counter-charges, excessive standards of proof, bias in prohibition or enforcement, and so on. These competing narratives allow loyalists cover, but are less compelling to opponents and fence-sitters than campaigns built around existing narratives or highly explanatory master narratives. Competing narratives, as such, are especially useful in the firehose of misinformation approach.",
+                    "tactic_id": "TA14",
+                    "tactic_name": "Develop Narratives",
+                    "counters": [
+                        "C00042 Address truth contained in narratives",
+                        "C00080 Create competing narrative",
+                        "C00081 Highlight flooding and noise, and explain motivations",
+                        "C00082 Ground truthing as automated response to pollution",
+                        "C00084 Modify disinformation narratives, and rebroadcast them",
+                        "C00125 Prebunking",
+                        "C00126 Social media amber alert",
+                        "C00156 Better tell your country or organization story",
+                        "C00161 Coalition Building with stakeholders and Third-Party Inducements",
+                        "C00162 Unravel/target the Potemkin villages",
+                        "C00164 compatriot policy",
+                        "C00169 develop a creative content hub"
+                    ]
+                },
+                {
+                    "id": "T0022",
+                    "type": "technique",
+                    "name": "Leverage Conspiracy Theory Narratives",
+                    "description": "Conspiracy narratives appeal to the human desire for explanatory order, by invoking the participation of poweful (often sinister) actors in pursuit of their own political goals. These narratives are especially appealing when an audience is low-information, marginalised or otherwise inclined to reject the prevailing explanation. Conspiracy narratives are an important component of the firehose of falsehoods model.",
+                    "tactic_id": "TA14",
+                    "tactic_name": "Develop Narratives",
+                    "counters":[
+                        "C00012 Platform regulation",
+                        "C00016 Censorship",
+                        "C00017 Repair broken social connections",
+                        "C00019 Reduce effect of division-enablers",
+                        "C00021 Encourage in-person communication",
+                        "C00022 Innoculate. Positive campaign to promote feeling of safety",
+                        "C00024 Promote healthy narratives",
+                        "C00027 Create culture of civility",
+                        "C00029 Create fake website to issue counter narrative and counter narrative through physical merchandise",
+                        "C00030 Develop a compelling counter narrative (truth based)",
+                        "C00042 Address truth contained in narratives",
+                        "C00046 Marginalise and discredit extremist groups",
+                        "C00072 Remove non-relevant content from special interest groups - not recommended",
+                        "C00073 Inoculate populations through media literacy training",
+                        "C00074 Identify and delete or rate limit identical content",
+                        "C00080 Create competing narrative",
+                        "C00081 Highlight flooding and noise, and explain motivations",
+                        "C00082 Ground truthing as automated response to pollution",
+                        "C00084 Modify disinformation narratives, and rebroadcast them",
+                        "C00085 Mute content",
+                        "C00096 Strengthen institutions that are always truth tellers",
+                        "C00107 Content moderation",
+                        "C00117 Downgrade / de-amplify so message is seen by fewer people",
+                        "C00119 Engage payload and debunk.",
+                        "C00122 Content moderation",
+                        "C00125 Prebunking",
+                        "C00126 Social media amber alert",
+                        "C00156 Better tell your country or organization story",
+                        "C00161 Coalition Building with stakeholders and Third-Party Inducements",
+                        "C00162 Unravel/target the Potemkin villages",
+                        "C00164 compatriot policy",
+                        "C00169 develop a creative content hub",
+                        "C00174 Create a healthier news environment",
+                        "C00176 Improve Coordination amongst stakeholders: public and private",
+                        "C00188 Newsroom/Journalist training to counter influence moves",
+                        "C00190 open engagement with civil society",
+                        "C00195 Redirect searches away from disinformation or extremist content",
+                        "C00200 Respected figure (influencer) disavows misinfo",
+                        "C00203 Stop offering press credentials to propaganda outlets",
+                        "C00205 strong dialogue between the federal government and private sector to encourage better reporting",
+                        "C00211 Use humorous counter-narratives",
+                        "C00212 build public resilience by making civil society more vibrant"
+                    ]
+                },
+                {
+                    "id": "T0022.001",
+                    "type": "technique",
+                    "name": "Amplify Existing Conspiracy Theory Narratives",
+                    "description": "An influence operation may amplify an existing conspiracy theory narrative that aligns with its incident or campaign goals. By amplifying existing conspiracy theory narratives, operators can leverage the power of the existing communities that support and propagate those theories without needing to expend resources creating new narratives or building momentum and buy in around new narratives.",
+                    "tactic_id": "TA14",
+                    "tactic_name": "Develop Narratives",
+                    "counters":[
+                        "C00012 Platform regulation",
+                        "C00016 Censorship",
+                        "C00017 Repair broken social connections",
+                        "C00019 Reduce effect of division-enablers",
+                        "C00021 Encourage in-person communication",
+                        "C00022 Innoculate. Positive campaign to promote feeling of safety",
+                        "C00024 Promote healthy narratives",
+                        "C00027 Create culture of civility",
+                        "C00029 Create fake website to issue counter narrative and counter narrative through physical merchandise",
+                        "C00030 Develop a compelling counter narrative (truth based)",
+                        "C00042 Address truth contained in narratives",
+                        "C00046 Marginalise and discredit extremist groups",
+                        "C00072 Remove non-relevant content from special interest groups - not recommended",
+                        "C00073 Inoculate populations through media literacy training",
+                        "C00074 Identify and delete or rate limit identical content",
+                        "C00080 Create competing narrative",
+                        "C00081 Highlight flooding and noise, and explain motivations",
+                        "C00082 Ground truthing as automated response to pollution",
+                        "C00084 Modify disinformation narratives, and rebroadcast them",
+                        "C00085 Mute content",
+                        "C00096 Strengthen institutions that are always truth tellers",
+                        "C00107 Content moderation",
+                        "C00117 Downgrade / de-amplify so message is seen by fewer people",
+                        "C00119 Engage payload and debunk.",
+                        "C00122 Content moderation",
+                        "C00125 Prebunking",
+                        "C00126 Social media amber alert",
+                        "C00156 Better tell your country or organization story",
+                        "C00161 Coalition Building with stakeholders and Third-Party Inducements",
+                        "C00162 Unravel/target the Potemkin villages",
+                        "C00164 compatriot policy",
+                        "C00169 develop a creative content hub",
+                        "C00174 Create a healthier news environment",
+                        "C00176 Improve Coordination amongst stakeholders: public and private",
+                        "C00188 Newsroom/Journalist training to counter influence moves",
+                        "C00190 open engagement with civil society",
+                        "C00195 Redirect searches away from disinformation or extremist content",
+                        "C00200 Respected figure (influencer) disavows misinfo",
+                        "C00203 Stop offering press credentials to propaganda outlets",
+                        "C00205 strong dialogue between the federal government and private sector to encourage better reporting",
+                        "C00211 Use humorous counter-narratives",
+                        "C00212 build public resilience by making civil society more vibrant"
+                    ]
+                },
+                {
+                    "id": "T0022.002",
+                    "type": "technique",
+                    "name": "Develop Original Conspiracy Theory Narratives",
+                    "description": "While this requires more resources than amplifying existing conspiracy theory narratives, an influence operation may develop original conspiracy theory narratives in order to achieve greater control and alignment over the narrative and their campaign goals. Prominent examples include the USSR's Operation INFEKTION disinformation campaign run by the KGB in the 1980s to plant the idea that the United States had invented HIV/AIDS as part of a biological weapons research project at Fort Detrick, Maryland. More recently, Fort Detrick featured prominently in a new conspiracy theory narratives around the origins of the COVID-19 outbreak and pandemic.",
+                    "tactic_id": "TA14",
+                    "tactic_name": "Develop Narratives",
+                    "counters":[
+                        "C00012 Platform regulation",
+                        "C00016 Censorship",
+                        "C00017 Repair broken social connections",
+                        "C00019 Reduce effect of division-enablers",
+                        "C00021 Encourage in-person communication",
+                        "C00022 Innoculate. Positive campaign to promote feeling of safety",
+                        "C00024 Promote healthy narratives",
+                        "C00027 Create culture of civility",
+                        "C00029 Create fake website to issue counter narrative and counter narrative through physical merchandise",
+                        "C00030 Develop a compelling counter narrative (truth based)",
+                        "C00042 Address truth contained in narratives",
+                        "C00046 Marginalise and discredit extremist groups",
+                        "C00072 Remove non-relevant content from special interest groups - not recommended",
+                        "C00073 Inoculate populations through media literacy training",
+                        "C00074 Identify and delete or rate limit identical content",
+                        "C00080 Create competing narrative",
+                        "C00081 Highlight flooding and noise, and explain motivations",
+                        "C00082 Ground truthing as automated response to pollution",
+                        "C00084 Modify disinformation narratives, and rebroadcast them",
+                        "C00085 Mute content",
+                        "C00096 Strengthen institutions that are always truth tellers",
+                        "C00107 Content moderation",
+                        "C00117 Downgrade / de-amplify so message is seen by fewer people",
+                        "C00119 Engage payload and debunk.",
+                        "C00122 Content moderation",
+                        "C00125 Prebunking",
+                        "C00126 Social media amber alert",
+                        "C00156 Better tell your country or organization story",
+                        "C00161 Coalition Building with stakeholders and Third-Party Inducements",
+                        "C00162 Unravel/target the Potemkin villages",
+                        "C00164 compatriot policy",
+                        "C00169 develop a creative content hub",
+                        "C00174 Create a healthier news environment",
+                        "C00176 Improve Coordination amongst stakeholders: public and private",
+                        "C00188 Newsroom/Journalist training to counter influence moves",
+                        "C00190 open engagement with civil society",
+                        "C00195 Redirect searches away from disinformation or extremist content",
+                        "C00200 Respected figure (influencer) disavows misinfo",
+                        "C00203 Stop offering press credentials to propaganda outlets",
+                        "C00205 strong dialogue between the federal government and private sector to encourage better reporting",
+                        "C00211 Use humorous counter-narratives",
+                        "C00212 build public resilience by making civil society more vibrant"
+                    ]
+                },
+                {
+                    "id": "T0040",
+                    "type": "technique",
+                    "name": "Demand Insurmountable Proof",
+                    "description": "Campaigns often leverage tactical and informational asymmetries on the threat surface, as seen in the Distort and Deny strategies, and the \"firehose of misinformation\". Specifically, conspiracy theorists can be repeatedly wrong, but advocates of the truth need to be perfect. By constantly escalating demands for proof, propagandists can effectively leverage this asymmetry while also priming its future use, often with an even greater asymmetric advantage. The conspiracist is offered freer rein for a broader range of \"questions\" while the truth teller is burdened with higher and higher standards of proof.",
+                    "tactic_id": "TA14",
+                    "tactic_name": "Develop Narratives",
+                    "counters": [
+                        "C00073 Inoculate populations through media literacy training",
+                        "C00112 'Prove they are not an op!'"
+                    ]
+                },
+                {
+                    "id": "T0068",
+                    "type": "technique",
+                    "name": "Respond to Breaking News Event or Active Crisis",
+                    "description": "Media attention on a story or event is heightened during a breaking news event, where unclear facts and incomplete information increase speculation, rumours, and conspiracy theories, which are all vulnerable to manipulation.",
+                    "tactic_id": "TA14",
+                    "tactic_name": "Develop Narratives",
+                    "counters": []
+                },
+                {
+                    "id": "T0082",
+                    "type": "technique",
+                    "name": "Develop New Narratives",
+                    "description": "Actors may develop new narratives to further strategic or tactical goals, especially when existing narratives adequately align with the campaign goals. New narratives provide more control in terms of crafting the message to achieve specific goals. However, new narratives may require more effort to disseminate than adapting or adopting existing narratives.",
+                    "tactic_id": "TA14",
+                    "tactic_name": "Develop Narratives",
+                    "counters": []
+                },
+                {
+                    "id": "T0083",
+                    "type": "technique",
+                    "name": "Integrate Target Audience Vulnerabilities into Narrative",
+                    "description": "An influence operation may seek to exploit the preexisting weaknesses, fears, and enemies of the target audience for integration into the operation's narratives and overall strategy. Integrating existing vulnerabilities into the operational approach conserves resources by exploiting already weak areas of the target information environment instead of forcing the operation to create new vulnerabilities in the environment.",
+                    "tactic_id": "TA14",
+                    "tactic_name": "Develop Narratives",
+                    "counters": []
+                }
+            ]
+        },
+        {
+            "id": "TA06",
+            "type": "tactic",
+            "name": "Develop Content",
+            "description": "Create or acquire text, images, and other content",
+            "techniques": [
+                {
+                    "id": "T0023",
+                    "type": "technique",
+                    "name": "Distort Facts",
+                    "description": "Change, twist, or exaggerate existing facts to construct a narrative that differs from reality. Examples: images and ideas can be distorted by being placed in an improper content",
+                    "tactic_id": "TA06",
+                    "tactic_name": "Develop Content",
+                    "counters": [
+                        "C00017 Repair broken social connections",
+                        "C00019 Reduce effect of division-enablers",
+                        "C00021 Encourage in-person communication",
+                        "C00022 Innoculate. Positive campaign to promote feeling of safety",
+                        "C00024 Promote healthy narratives",
+                        "C00027 Create culture of civility",
+                        "C00046 Marginalise and discredit extremist groups",
+                        "C00072 Remove non-relevant content from special interest groups - not recommended",
+                        "C00073 Inoculate populations through media literacy training",
+                        "C00081 Highlight flooding and noise, and explain motivations",
+                        "C00082 Ground truthing as automated response to pollution",
+                        "C00092 Establish a truth teller reputation score for influencers",
+                        "C00096 Strengthen institutions that are always truth tellers"
+                    ]
+                },
+                {
+                    "id": "T0023.001",
+                    "type": "technique",
+                    "name": "Reframe Context",
+                    "description": "Reframing context refers to removing an event from its surrounding context to distort its intended meaning. Rather than deny that an event occurred, reframing context frames an event in a manner that may lead the target audience to draw a different conclusion about its intentions.",
+                    "tactic_id": "TA06",
+                    "tactic_name": "Develop Content",
+                    "counters": [
+                        "C00017 Repair broken social connections",
+                        "C00019 Reduce effect of division-enablers",
+                        "C00021 Encourage in-person communication",
+                        "C00022 Innoculate. Positive campaign to promote feeling of safety",
+                        "C00024 Promote healthy narratives",
+                        "C00027 Create culture of civility",
+                        "C00046 Marginalise and discredit extremist groups",
+                        "C00072 Remove non-relevant content from special interest groups - not recommended",
+                        "C00073 Inoculate populations through media literacy training",
+                        "C00081 Highlight flooding and noise, and explain motivations",
+                        "C00082 Ground truthing as automated response to pollution",
+                        "C00092 Establish a truth teller reputation score for influencers",
+                        "C00096 Strengthen institutions that are always truth tellers"
+                    ]
+                },
+                {
+                    "id": "T0084",
+                    "type": "technique",
+                    "name": "Reuse Existing Content",
+                    "description": "When an operation recycles content from its own previous operations or plagiarises from external operations. An operation may launder information to conserve resources that would have otherwise been utilised to develop new content.",
+                    "tactic_id": "TA06",
+                    "tactic_name": "Develop Content",
+                    "counters": []
+                },
+                {
+                    "id": "T0084.002",
+                    "type": "technique",
+                    "name": "Plagiarise Content",
+                    "description": "An influence operation may take content from other sources without proper attribution. This content may be either misinformation content shared by others without malicious intent but now leveraged by the campaign as disinformation or disinformation content from other sources.",
+                    "tactic_id": "TA06",
+                    "tactic_name": "Develop Content",
+                    "counters": []
+                },
+                {
+                    "id": "T0085",
+                    "type": "technique",
+                    "name": "Develop Text-Based Content",
+                    "description": "Creating and editing false or misleading text-based artefacts, often aligned with one or more specific narratives, for use in a disinformation campaign.",
+                    "tactic_id": "TA06",
+                    "tactic_name": "Develop Content",
+                    "counters": []
+                },
+                {
+                    "id": "T0085.001",
+                    "type": "technique",
+                    "name": "Develop AI-Generated Text",
+                    "description": "AI-generated texts refers to synthetic text composed by computers using text-generating AI technology. Autonomous generation refers to content created by a bot without human input, also known as bot-created content generation. Autonomous generation represents the next step in automation after language generation and may lead to automated journalism. An influence operation may use read fakes or autonomous generation to quickly develop and distribute content to the target audience.<br><br><b>Associated Techniques and Sub-techniques:</b><br><b>T0085.008: Machine Translated Text:</b> Use this sub-technique when AI has been used to generate a translation of a piece of text.",
+                    "tactic_id": "TA06",
+                    "tactic_name": "Develop Content",
+                    "counters": []
+                },
+                {
+                    "id": "T0089",
+                    "type": "technique",
+                    "name": "Obtain Private Documents",
+                    "description": "Procuring documents that are not publicly available, by whatever means -- whether legal or illegal, highly-resourced or less so. These documents can include authentic non-public documents, authentic non-public documents have been altered, or inauthentic documents intended to appear as if they are authentic non-public documents. All of these types of documents can be \"leaked\" during later stages in the operation.",
+                    "tactic_id": "TA06",
+                    "tactic_name": "Develop Content",
+                    "counters": []
+                },
+                {
+                    "id": "T0089.003",
+                    "type": "technique",
+                    "name": "Alter Authentic Documents",
+                    "description": "Alter authentic documents (public or non-public) to achieve campaign goals. The altered documents are intended to appear as if they are authentic and can be \"leaked\" during later stages in the operation.",
+                    "tactic_id": "TA06",
+                    "tactic_name": "Develop Content",
+                    "counters": []
+                }
+            ]
+        },
+        {
+            "id": "TA16",
+            "type": "tactic",
+            "name": "Establish Legitimacy",
+            "description": "Establish assets that create trust",
+            "techniques": [
+                {
+                    "id": "T0009",
+                    "type": "technique",
+                    "name": "Create fake experts",
+                    "description": "Stories planted or promoted in computational propaganda operations often make use of experts fabricated from whole cloth, sometimes specifically for the story itself.",
+                    "tactic_id": "TA16",
+                    "tactic_name": "Establish Legitimacy",
+                    "counters": [
+                        "C00008 Create shared fact-checking database",
+                        "C00011 Media literacy. Games to identify fake news",
+                        "C00012 Platform regulation",
+                        "C00014 Real-time updates to fact-checking database",
+                        "C00016 Censorship",
+                        "C00034 Create more friction at account creation",
+                        "C00040 third party verification for people",
+                        "C00097 Require use of verified identities to contribute to poll or comment",
+                        "C00099 Strengthen verification methods",
+                        "C00107 Content moderation",
+                        "C00133 Deplatform Account*",
+                        "C00176 Improve Coordination amongst stakeholders: public and private",
+                        "C00189 Ensure that platforms are taking down flagged accounts",
+                        "C00197 remove suspicious accounts"
+                    ]
+                },
+                {
+                    "id": "T0009.001",
+                    "type": "technique",
+                    "name": "Utilize Academic/Pseudoscientific Justifications",
+                    "description": "Utilize Academic/Pseudoscientific Justifications.",
+                    "tactic_id": "TA16",
+                    "tactic_name": "Establish Legitimacy",
+                    "counters": [
+                        "C00008 Create shared fact-checking database",
+                        "C00011 Media literacy. Games to identify fake news",
+                        "C00012 Platform regulation",
+                        "C00014 Real-time updates to fact-checking database",
+                        "C00016 Censorship",
+                        "C00040 third party verification for people",
+                        "C00099 Strengthen verification methods",
+                        "C00107 Content moderation"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "TA05",
+            "type": "tactic",
+            "name": "Microtarget",
+            "description": "Actions taken which help target content to specific audiences identified and analysed as part of TA13: Target Audience Analysis.",
+            "techniques": [
+                {
+                    "id": "T0016",
+                    "type": "technique",
+                    "name": "Create Clickbait",
+                    "description": "Create attention grabbing headlines (outrage, doubt, humour) required to drive traffic & engagement. This is a key asset.",
+                    "tactic_id": "TA05",
+                    "tactic_name": "Microtarget",
+                    "counters": [
+                        "C00012 Platform regulation",
+                        "C00016 Censorship",
+                        "C00073 Inoculate populations through media literacy training",
+                        "C00076 Prohibit images in political discourse channels",
+                        "C00105 Buy more advertising than misinformation creators",
+                        "C00106 Click-bait centrist content",
+                        "C00107 Content moderation",
+                        "C00122 Content moderation",
+                        "C00142 Platform adds warning label and decision point when sharing content",
+                        "C00176 Improve Coordination amongst stakeholders: public and private",
+                        "C00178 Fill information voids with non-disinformation content",
+                        "C00195 Redirect searches away from disinformation or extremist content",
+                        "C00216 Use advertiser controls to stem flow of funds to bad actors"
+                    ]
+                },
+                {
+                    "id": "T0101",
+                    "type": "technique",
+                    "name": "Create Localized Content",
+                    "description": "Localized content refers to content that appeals to a specific community of individuals, often in defined geographic areas. An operation may create localised content using local language and dialects to resonate with its target audience and blend in with other local news and social media. Localised content may help an operation increase legitimacy, avoid detection, and complicate external attribution.",
+                    "tactic_id": "TA05",
+                    "tactic_name": "Microtarget",
+                    "counters": []
+                }
+            ]
+        }, 
+        {
+            "id": "TA07",
+            "type": "tactic",
+            "name": "Select Channels and Affordances",
+            "description": "Selecting platforms and affordances assesses which online or offline platforms and their associated affordances maximise an influence operation's ability to reach its target audience. To select the most appropriate platform(s), an operation may assess the technological affordances including platform algorithms, terms of service, permitted content types, or other attributes that determine platform usability and accessibility. Selecting platforms includes both choosing platforms on which the operation will publish its own content and platforms on which the operation will attempt to restrict adversarial content.",
+            "techniques": [
+                {
+                    "id": "T0029",
+                    "type": "technique",
+                    "name": "Online Polls",
+                    "description": "Create fake online polls, or manipulate existing online polls. Data gathering tactic to target those who engage, and potentially their networks of friends/followers as well",
+                    "tactic_id": "TA07",
+                    "tactic_name": "Select Channels and Affordances",
+                    "counters": [
+                        "C00044 Keep people from posting to social media immediately",
+                        "C00097 Require use of verified identities to contribute to poll or comment",
+                        "C00101 Create friction by rate-limiting engagement",
+                        "C00103 Create a bot that engages / distract trolls",
+                        "C00123 Remove or rate limit botnets"
+                    ]
+                },
+                {
+                    "id": "T0104",
+                    "type": "technique",
+                    "name": "Social Networks",
+                    "description": "Social media are interactive digital channels that facilitate the creation and sharing of information, ideas, interests, and other forms of expression through virtual communities and networks.",
+                    "tactic_id": "TA07",
+                    "tactic_name": "Select Channels and Affordances",
+                    "counters": []
+                },
+                {
+                    "id": "T0104.005",
+                    "type": "technique",
+                    "name": "Use hashtags",
+                    "description": "Use a dedicated, existing hashtag for the campaign/incident.",
+                    "tactic_id": "TA07",
+                    "tactic_name": "Select Channels and Affordances",
+                    "counters": []
+                },
+                {
+                    "id": "T0104.006",
+                    "type": "technique",
+                    "name": "Create dedicated hashtag",
+                    "description": "Create a campaign/incident specific hashtag.",
+                    "tactic_id": "TA07",
+                    "tactic_name": "Select Channels and Affordances",
+                    "counters": []
+                }
+            ]
+        },
+        {
+            "id": "TA08",
+            "type": "tactic",
+            "name": "Conduct Pump Priming",
+            "description": "Release content on a targetted small scale, prior to general release, including releasing seed. Used for preparation before broader release, and as message honing. Used for preparation before broader release, and as message honing.",
+            "techniques": [
+                {
+                    "id": "T0045",
+                    "type": "technique",
+                    "name": "Use Fake Experts",
+                    "description": "Use the fake experts that were set up during Establish Legitimacy. Pseudo-experts are disposable assets that often appear once and then disappear. Give \"credility\" to misinformation. Take advantage of credential bias",
+                    "tactic_id": "TA08",
+                    "tactic_name": "Conduct Pump Priming",
+                    "counters": [
+                        "C00008 Create shared fact-checking database",
+                        "C00011 Media literacy. Games to identify fake news",
+                        "C00012 Platform regulation",
+                        "C00014 Real-time updates to fact-checking database",
+                        "C00016 Censorship",
+                        "C00036 Infiltrate the in-group to discredit leaders (divide)",
+                        "C00046 Marginalise and discredit extremist groups",
+                        "C00048 Name and Shame Influencers",
+                        "C00073 Inoculate populations through media literacy training",
+                        "C00085 Mute content",
+                        "C00092 Establish a truth teller reputation score for influencers",
+                        "C00097 Require use of verified identities to contribute to poll or comment",
+                        "C00099 Strengthen verification methods",
+                        "C00107 Content moderation",
+                        "C00113 Debunk and defuse a fake expert / credentials.",
+                        "C00117 Downgrade / de-amplify so message is seen by fewer people",
+                        "C00119 Engage payload and debunk.",
+                        "C00122 Content moderation",
+                        "C00125 Prebunking",
+                        "C00126 Social media amber alert",
+                        "C00133 Deplatform Account*",
+                        "C00154 Ask media not to report false information",
+                        "C00174 Create a healthier news environment",
+                        "C00176 Improve Coordination amongst stakeholders: public and private",
+                        "C00184 Media exposure",
+                        "C00188 Newsroom/Journalist training to counter influence moves",
+                        "C00195 Redirect searches away from disinformation or extremist content",
+                        "C00200 Respected figure (influencer) disavows misinfo",
+                        "C00203 Stop offering press credentials to propaganda outlets",
+                        "C00211 Use humorous counter-narratives"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "TA17",
+            "type": "tactic",
+            "name": "Maximize Exposure",
+            "description": "Maximize exposure of the target audience to incident/campaign content via flooding, amplifying, and cross-posting.",
+            "techniques": [
+                {
+                    "id": "T0049.002",
+                    "type": "technique",
+                    "name": "Hijack existing hashtag",
+                    "description": "Take over an existing hashtag to drive exposure.",
+                    "tactic_id": "TA17",
+                    "tactic_name": "Maximize Exposure",
+                    "counters": []
+                },
+                {
+                    "id": "T0118",
+                    "type": "technique",
+                    "name": "Amplify Existing Narrative",
+                    "description": "An influence operation may amplify existing narratives that align with its narratives to support operation objectives.",
+                    "tactic_id": "TA17",
+                    "tactic_name": "Maximize Exposure",
+                    "counters": []
+                },
+                {
+                    "id": "T0119",
+                    "type": "technique",
+                    "name": "Cross-Posting",
+                    "description": "Cross-posting refers to posting the same message to multiple internet discussions, social media platforms or accounts, or news groups at one time. An influence operation may post content online in multiple communities and platforms to increase the chances of content exposure to the target audience.",
+                    "tactic_id": "TA17",
+                    "tactic_name": "Maximize Exposure",
+                    "counters": []
+                },
+                {
+                    "id": "T0119.002",
+                    "type": "technique",
+                    "name": "Post across Platform",
+                    "description": "An influence operation may post content across platforms to spread narratives and content to new communities within the target audiences or to new target audiences. Posting across platforms can also remove opposition and context, helping the narrative spread with less opposition on the cross-posted platform.",
+                    "tactic_id": "TA17",
+                    "tactic_name": "Maximize Exposure",
+                    "counters": []
+                },
+                {
+                    "id": "T0120",
+                    "type": "technique",
+                    "name": "Incentivize Sharing",
+                    "description": "Incentivizing content sharing refers to actions that encourage users to share content themselves, reducing the need for the operation itself to post and promote its own content.",
+                    "tactic_id": "TA17",
+                    "tactic_name": "Maximize Exposure",
+                    "counters": []
+                }
+            ]
+        },
+        {
+            "id": "TA18",
+            "type": "tactic",
+            "name": "Drive Online Harms",
+            "description": "Actions taken by an influence operation to harm their opponents in online spaces through harassment, suppression, releasing private information, and controlling the information space through offensive cyberspace operations.",
+            "techniques": [
+                {
+                    "id": "T0048",
+                    "type": "technique",
+                    "name": "Harass",
+                    "description": "Threatening or harassing believers of opposing narratives refers to the use of intimidation techniques, including cyberbullying and doxing, to discourage opponents from voicing their dissent. An influence operation may threaten or harass believers of the opposing narratives to deter individuals from posting or proliferating conflicting content.",
+                    "tactic_id": "TA18",
+                    "tactic_name": "Drive Online Harms",
+                    "counters": [
+                        "C00009 Educate high profile influencers on best practices",
+                        "C00012 Platform regulation",
+                        "C00027 Create culture of civility",
+                        "C00046 Marginalise and discredit extremist groups",
+                        "C00048 Name and Shame Influencers",
+                        "C00073 Inoculate populations through media literacy training",
+                        "C00087 Make more noise than the disinformation",
+                        "C00093 Influencer code of conduct",
+                        "C00114 Don't engage with payloads",
+                        "C00115 Expose actor and intentions",
+                        "C00154 Ask media not to report false information",
+                        "C00160 find and train influencers"
+                    ]
+                },
+                {
+                    "id": "T0048.001",
+                    "type": "technique",
+                    "name": "Boycott/'Cancel' Opponents",
+                    "description": "Cancel culture refers to the phenomenon in which individuals collectively refrain from supporting an individual, organisation, business, or other entity, usually following a real or falsified controversy. An influence operation may exploit cancel culture by emphasising an adversary's problematic or disputed behaviour and presenting its own content as an alternative.",
+                    "tactic_id": "TA18",
+                    "tactic_name": "Drive Online Harms",
+                    "counters": [
+                        "C00009 Educate high profile influencers on best practices",
+                        "C00012 Platform regulation",
+                        "C00027 Create culture of civility",
+                        "C00046 Marginalise and discredit extremist groups",
+                        "C00048 Name and Shame Influencers",
+                        "C00073 Inoculate populations through media literacy training",
+                        "C00087 Make more noise than the disinformation",
+                        "C00093 Influencer code of conduct",
+                        "C00114 Don't engage with payloads",
+                        "C00115 Expose actor and intentions",
+                        "C00154 Ask media not to report false information",
+                        "C00160 find and train influencers"
+                    ]
+                },
+                {
+                    "id": "T0048.002",
+                    "type": "technique",
+                    "name": "Harass People Based on Identities",
+                    "description": "Examples include social identities like gender, sexuality, race, ethnicity, religion, ability, nationality, etc. as well as roles and occupations like journalist or activist.",
+                    "tactic_id": "TA18",
+                    "tactic_name": "Drive Online Harms",
+                    "counters": [
+                        "C00009 Educate high profile influencers on best practices",
+                        "C00012 Platform regulation",
+                        "C00027 Create culture of civility",
+                        "C00046 Marginalise and discredit extremist groups",
+                        "C00048 Name and Shame Influencers",
+                        "C00073 Inoculate populations through media literacy training",
+                        "C00087 Make more noise than the disinformation",
+                        "C00093 Influencer code of conduct",
+                        "C00114 Don't engage with payloads",
+                        "C00115 Expose actor and intentions",
+                        "C00154 Ask media not to report false information",
+                        "C00160 find and train influencers"
+                    ]
+                },
+                {
+                    "id": "T0048.004",
+                    "type": "technique",
+                    "name": "Dox",
+                    "description": "Doxing refers to online harassment in which individuals publicly release private information about another individual, including names, addresses, employment information, pictures, family members, and other sensitive information. An influence operation may dox its opposition to encourage individuals aligned with operation narratives to harass the doxed individuals themselves or otherwise discourage the doxed individuals from posting or proliferating conflicting content.",
+                    "tactic_id": "TA18",
+                    "tactic_name": "Drive Online Harms",
+                    "counters": [
+                        "C00009 Educate high profile influencers on best practices",
+                        "C00012 Platform regulation",
+                        "C00027 Create culture of civility",
+                        "C00046 Marginalise and discredit extremist groups",
+                        "C00048 Name and Shame Influencers",
+                        "C00073 Inoculate populations through media literacy training",
+                        "C00087 Make more noise than the disinformation",
+                        "C00093 Influencer code of conduct",
+                        "C00114 Don't engage with payloads",
+                        "C00115 Expose actor and intentions",
+                        "C00154 Ask media not to report false information",
+                        "C00160 find and train influencers"
+                    ]
+                },
+                {
+                    "id": "T0124",
+                    "type": "technique",
+                    "name": "Suppress Opposition",
+                    "description": "Operators can suppress the opposition by exploiting platform content moderation tools and processes like reporting non-violative content to platforms for takedown and goading opposition actors into taking actions that result in platform action or target audience disapproval.",
+                    "tactic_id": "TA18",
+                    "tactic_name": "Drive Online Harms",
+                    "counters": []
+                },
+                {
+                    "id": "T0124.002",
+                    "type": "technique",
+                    "name": "Goad People into Harmful Action (Stop Hitting Yourself)",
+                    "description": "Goad people into actions that violate terms of service or will lead to having their content or accounts taken down.",
+                    "tactic_id": "TA18",
+                    "tactic_name": "Drive Online Harms",
+                    "counters": []
+                }
+            ]
+        },
+        {
+            "id": "TA10",
+            "type": "tactic",
+            "name": "Drive Offline Activity",
+            "description": "Move incident/campaign from online to offline. Encouraging users to move from the platform on which they initially viewed operation content and engage in the physical information space or offline world. This may include operation-aligned rallies or protests, radio, newspaper, or billboards. An influence operation may drive to physical forums to diversify its information channels and facilitate spaces where the target audience can engage with both operation content and like-minded individuals offline.",
+            "techniques": [
+                {
+                    "id": "T0017",
+                    "type": "technique",
+                    "name": "Conduct Fundraising",
+                    "description": "Fundraising campaigns refer to an influence operation's systematic effort to seek financial support for a charity, cause, or other enterprise using online activities that further promote operation information pathways while raising a profit. Many influence operations have engaged in crowdfunding services166 on platforms including Tipee, Patreon, and GoFundMe. An operation may use its previously prepared fundraising campaigns to promote operation messaging while raising money to support its activities.",
+                    "tactic_id": "TA10",
+                    "tactic_name": "Drive Offline Activity",
+                    "counters": [
+                        "C00012 Platform regulation",
+                        "C00016 Censorship",
+                        "C00058 Report crowdfunder as violator",
+                        "C00067 Denigrate the recipient/ project (of online funding)",
+                        "C00070 Block access to disinformation resources",
+                        "C00085 Mute content",
+                        "C00093 Influencer code of conduct",
+                        "C00107 Content moderation",
+                        "C00122 Content moderation",
+                        "C00129 Use banking to cut off access",
+                        "C00153 Take pre-emptive action against actors' infrastructure",
+                        "C00155 Ban incident actors from funding sites",
+                        "C00176 Improve Coordination amongst stakeholders: public and private",
+                        "C00178 Fill information voids with non-disinformation content",
+                        "C00216 Use advertiser controls to stem flow of funds to bad actors"
+                    ]
+                },
+                {
+                    "id": "T0061",
+                    "type": "technique",
+                    "name": "Sell Merchandise",
+                    "description": "Sell mechandise refers to getting the message or narrative into physical space in the offline world while making money",
+                    "tactic_id": "TA10",
+                    "tactic_name": "Drive Offline Activity",
+                    "counters": [
+                        "C00012 Platform regulation",
+                        "C00046 Marginalise and discredit extremist groups",
+                        "C00048 Name and Shame Influencers",
+                        "C00058 Report crowdfunder as violator",
+                        "C00067 Denigrate the recipient/ project (of online funding)",
+                        "C00074 Identify and delete or rate limit identical content",
+                        "C00085 Mute content",
+                        "C00107 Content moderation",
+                        "C00122 Content moderation",
+                        "C00128 Create friction by marking content with ridicule or other 'decelerants'",
+                        "C00129 Use banking to cut off access",
+                        "C00153 Take pre-emptive action against actors' infrastructure",
+                        "C00176 Improve Coordination amongst stakeholders: public and private",
+                        "C00216 Use advertiser controls to stem flow of funds to bad actors"
+                    ]
+                },
+                {
+                    "id": "T0126",
+                    "type": "technique",
+                    "name": "Encourage Attendance at Events",
+                    "description": "Operation encourages attendance at existing real world event.",
+                    "tactic_id": "TA10",
+                    "tactic_name": "Drive Offline Activity",
+                    "counters": []
+                },
+                {
+                    "id": "T0126.001",
+                    "type": "technique",
+                    "name": "Call to Action to Attend",
+                    "description": "Call to action to attend an event",
+                    "tactic_id": "TA10",
+                    "tactic_name": "Drive Offline Activity",
+                    "counters": []
+                },
+                {
+                    "id": "T0126.002",
+                    "type": "technique",
+                    "name": "Facilitate Logistics or Support for Attendance",
+                    "description": "Facilitate logistics or support for travel, food, housing, etc.",
+                    "tactic_id": "TA10",
+                    "tactic_name": "Drive Offline Activity",
+                    "counters": []
+                }
+            ]
+        },
+        {
+            "id": "TA11",
+            "type": "tactic",
+            "name": "Persist in the Information Environment",
+            "description": "Persist in the Information Space refers to taking measures that allow an operation to maintain its presence and avoid takedown by an external entity. Techniques in Persist in the Information Space help campaigns operate without detection and appear legitimate to the target audience and platform monitoring services. Influence operations on social media often persist online by varying the type of information assets and platforms used throughout the campaign.",
+            "techniques": [
+                {
+                    "id": "T0128",
+                    "type": "technique",
+                    "name": "Conceal People",
+                    "description": "Conceal the identity or provenance of a campaign account and people assets to avoid takedown and attribution.",
+                    "tactic_id": "TA11",
+                    "tactic_name": "Persist in the Information Environment",
+                    "counters": []
+                },
+                {
+                    "id": "T0128.001",
+                    "type": "technique",
+                    "name": "Use Pseudonyms",
+                    "description": "An operation may use pseudonyms, or fake names, to mask the identity of operational accounts, channels, pages etc., publish anonymous content, or otherwise use falsified personas to conceal the identity of the operation. An operation may coordinate pseudonyms across multiple platforms, for example, by writing an article under a pseudonym and then posting a link to the article on social media on an account, channel, or page with the same falsified name.",
+                    "tactic_id": "TA11",
+                    "tactic_name": "Persist in the Information Environment",
+                    "counters": []
+                }
+            ]
+        }
+    ]
+}
